@@ -7,7 +7,7 @@ lgbm_model = joblib.load('lgbm_model.pkl')
 preprocessor = joblib.load('preprocessor.pkl')
 
 app = Flask(__name__)
-
+CORS(app)
 @app.route('/')
 def home():
     return "🚗 Car Price Prediction API is running!"
