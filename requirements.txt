@@ -7,4 +7,5 @@ pandas
 numpy
 kagglehub
 gunicorn
+flask_cors
 
